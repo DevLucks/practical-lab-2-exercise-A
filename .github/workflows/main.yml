@@ -10,4 +10,4 @@ jobs:
       - name: Run OWASP ZAP Baseline Scan
         uses: zaproxy/action-baseline@v0.10.0
         with:
-          target: "https://github.com/DevLucks/practical-lab-2-exercise-A.git"
+          target: "http://127.0.0.1:5000"
